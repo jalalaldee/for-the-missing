@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jalalaldeen saad</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="JS/jquery.min.js"></script>
+    <script type="text/javascript" src="JS/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="JS/NewCombo.js"></script>
+  </head>
+  <body>
+  </head>
+  <body>
+
+    <header>
+      <h1>my live</h1>
+      <nav>
+        <ul>
+          <li><a href="https://www.google.com/">Home</a></li>
+          <li><a href="">click here</a></li>
+          <li><a href="">About me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>
+           my living sites
+        </h2>
+
+      </section>
+
+
+      <section>
+        <div>
+          <h3>
+            Alkarak
+          </h3>
+          <img src="https://image.shutterstock.com/image-photo/kerak-castle-large-crusader-alkarak-260nw-1632610030.jpg">
+        </div>
+        <div>
+          <h3>
+            Amman
+          </h3>
+          <img src="https://cache.marriott.com/marriottassets/marriott/AMMWI/ammwi-exterior-2067-hor-wide.jpg?interpolation=progressive-bilinear&downsize=1440px:*">
+        </div>
+      </section>
+      <script type="text/javascript">
+        var myCombo = new NewCombo({
+            url: 'JSON/combobox_data1.json',
+            method: 'get',
+            valueField: 'id',
+            textField: 'text',
+            panelWidth: 350,
+            multiple:true,
+            //formatter: formatItem,
+            label: 'Language:',
+            });
+    </script>
+    </main>
+
+    <footer>
+      <p>
+        &copy; ALL RIGHTS RESERVED
+      </p>
+    </footer>
+  </body> 
+</html>  
